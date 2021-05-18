@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="msapplication-TileColor" content="#0072FF">
+    <meta name="theme-color" content="#0072FF">
+
+    <title>QR CODE BY LATIP</title>
+
+    <link rel="shortcut icon" href="image/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+    <script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/vivify.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="anim-wrapper ball">
+           <div class="qr-generator" data-micron="jelly">
+               <h1 class="qr-title" data-micron="jerk" id="anim-title">QR GENERATOR BY LATIP</h1>
+               <input type="text" class="qr-inp" placeholder="Введите текст">
+               <div class="qr-colors">
+                   <div class="qr-color white col-active" data-bgcolor="fff" data-color="000"></div>
+                   <div class="qr-color black" data-bgcolor="000" data-color="fff"></div>
+                   <div class="qr-color blue" data-bgcolor="0260E8" data-color="fff"></div>
+                   <div class="qr-color green" data-bgcolor="00CF91" data-color="fff"></div>
+                   <div class="qr-color red" data-bgcolor="F85C50" data-color="fff"></div>
+               </div>
+               <button class="qr-btn" data-micron="jelly" data-micron-bind="true" data-micron-id="anim-title">Сгенерировать QR</button>
+               <img src="" alt="" class="qr-img" data-micron="jerk">
+
+               <!-- <a href="images/xxx.jpg" download>Скачать файл</a> -->
+           </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
